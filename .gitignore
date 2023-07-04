@@ -7,5 +7,6 @@ Submission_B
 Submission_C
 data
 data_unprocess
+data_npy
 data_saving.py
 submission_datasets_copy.py
