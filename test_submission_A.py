@@ -13,7 +13,7 @@ DATA_DIR = 'data'
 X, Y = dl.loadLinRegDataset('A')
 train_generator, validation_generator = dl.loadHorseHuman(localDataDir=DATA_DIR, download=False)
 training_padded, training_labels, test_padded, test_labels = dl.loadIMDB(data_dir=DATA_DIR)
-train_set, test_set = dl.loadSunspots(local_csv = 'data_unprocess/sunspots.csv',download = False)
+train_set, test_set = dl.loadSunspots(local_csv = 'data/sunspots.csv',download = False)
 
 class TestSubmissionA(unittest.TestCase):
     def testA1(self):
